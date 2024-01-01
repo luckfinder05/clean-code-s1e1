@@ -30,8 +30,9 @@ button {
 }
 
 @media (max-width:768px) {
-.page__header { text-align: center;
-}
+  .page__header {
+    text-align: center;
+  }
 }
 .page__main {
   display: block;
