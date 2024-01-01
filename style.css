@@ -143,7 +143,7 @@ li > * {
 
 /* Edit Task */
 .list__item .item__input {
-  display: none
+  display: none;
 }
 
 .list__item.edit-mode .item__input {
