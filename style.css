@@ -3,28 +3,34 @@ ul {
   margin: 0;
   padding: 0px;
 }
+
 input,
 button {
   outline: none;
 }
+
 /* Basic Style */
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .main__title {
   display: none;
 }
+
 .page__header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .page__header .header__image {
   width: 100%;
 }
+
 .page__header .header__link {
   font-family: fantasy, cursive;
 }
@@ -34,23 +40,28 @@ button {
     text-align: center;
   }
 }
+
 .page__main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .add__task,
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .add__task-wrapper {
   display: flex;
 }
+
 .list__item {
   list-style: none;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -60,9 +71,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .section-title {
   color: #333;
@@ -73,8 +86,9 @@ button {
   margin: 0;
   text-transform: uppercase;
 }
+
 .add__task,
-.item__input{
+.item__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -86,6 +100,7 @@ button {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .add__task:focus,
 .item__input:focus {
   color: #333;
@@ -96,6 +111,7 @@ button {
   display: block;
   margin: 0 0 20px;
 }
+
 .add__task {
   width: 318px;
 }
@@ -110,6 +126,7 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
 li > * {
   vertical-align: middle;
 }
@@ -117,20 +134,24 @@ li > * {
 .item__checkbox {
   margin: 0 10px;
 }
+
 .item__title {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .item__input {
   width: 226px;
 }
+
 .btn_delete .btn__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn_delete .btn__image:hover {
   transform: rotateZ(0);
 }
