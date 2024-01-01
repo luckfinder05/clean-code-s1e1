@@ -29,7 +29,7 @@ button {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .page__header {
     text-align: center;
   }
