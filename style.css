@@ -127,7 +127,7 @@ button {
   align-items: center;
 }
 
-li > * {
+.list__item > * {
   vertical-align: middle;
 }
 
